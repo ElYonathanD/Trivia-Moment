@@ -3,6 +3,7 @@ import './App.css'
 import JsIcon from './components/JsIcon'
 import Start from './components/Start'
 import { useQuestionStore } from './store/questions'
+import Game from './components/Game'
 
 function App() {
   const questions = useQuestionStore((state) => state.questions)
@@ -19,7 +20,7 @@ function App() {
           <h1>JS Quiz</h1>
           <JsIcon />
         </Stack>
-        <Start />
+        {questions.length === 0 ? <Start /> : <Game />}
       </Container>
     </main>
   )
