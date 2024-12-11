@@ -8,6 +8,7 @@ interface State {
   selectAnswer: (questionId: number, answerIndex: number) => void
   goNextQuestion: () => void
   goPrevQuestion: () => void
+  goHome: () => void
 }
 
 export const useQuestionStore = create<State>((set, get) => {
@@ -50,6 +51,9 @@ export const useQuestionStore = create<State>((set, get) => {
       if (prevQuestion >= 0) {
         set({ currentQuestion: prevQuestion })
       }
+    },
+    goHome: () => {
+      set({ questions: [], currentQuestion: 0 })
     }
   }
 })
