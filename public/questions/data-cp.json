@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la capital de Francia?",
+    "answers": ["París", "Londres", "Madrid", "Roma"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la capital de Alemania?",
+    "answers": ["Berlín", "Viena", "Hamburgo", "Múnich"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la capital de Brasil?",
+    "answers": ["Brasilia", "Río de Janeiro", "Sao Paulo", "Recife"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la capital de Japón?",
+    "answers": ["Kyoto", "Osaka", "Tokio", "Hiroshima"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál es la capital de Italia?",
+    "answers": ["Roma", "Venecia", "Milán", "Nápoles"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la capital de Canadá?",
+    "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la capital de Australia?",
+    "answers": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 8,
+    "question": "¿Cuál es la capital de México?",
+    "answers": ["Monterrey", "Ciudad de México", "Guadalajara", "Tijuana"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es la capital de Argentina?",
+    "answers": ["Buenos Aires", "Rosario", "Córdoba", "La Plata"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es la capital de España?",
+    "answers": ["Barcelona", "Sevilla", "Valencia", "Madrid"],
+    "correctAnswer": 4
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es la capital de Rusia?",
+    "answers": ["San Petersburgo", "Moscú", "Novosibirsk", "Ekaterimburgo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es la capital de China?",
+    "answers": ["Shanghái", "Hong Kong", "Pekín", "Guangzhou"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál es la capital de Egipto?",
+    "answers": ["El Cairo", "Alejandría", "Giza", "Luxor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 14,
+    "question": "¿Cuál es la capital de Sudáfrica?",
+    "answers": ["Pretoria", "Ciudad del Cabo", "Johannesburgo", "Durban"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál es la capital de Colombia?",
+    "answers": ["Medellín", "Bogotá", "Cali", "Cartagena"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 16,
+    "question": "¿Cuál es la capital de Perú?",
+    "answers": ["Cusco", "Arequipa", "Trujillo", "Lima"],
+    "correctAnswer": 4
+  },
+  {
+    "id": 17,
+    "question": "¿Cuál es la capital de Chile?",
+    "answers": ["Valparaíso", "Santiago", "Concepción", "Antofagasta"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es la capital de Venezuela?",
+    "answers": ["Maracaibo", "Valencia", "Caracas", "Barquisimeto"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es la capital de Estados Unidos?",
+    "answers": ["Nueva York", "Washington D.C.", "Los Ángeles", "Chicago"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 20,
+    "question": "¿Cuál es la capital de India?",
+    "answers": ["Mumbai", "Delhi", "Nueva Delhi", "Bangalore"],
+    "correctAnswer": 3
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo se llama el triángulo que tiene tres lados iguales?",
+    "answers": ["Isósceles", "Equilátero", "Escaleno", "Rectángulo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es el resultado de cualquier número elevado a la potencia 0?",
+    "answers": ["0", "1", "El mismo número", "No se puede calcular"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se llama el ángulo mayor a 90 grados pero menor a 180 grados?",
+    "answers": ["Ángulo agudo", "Ángulo recto", "Ángulo obtuso", "Ángulo llano"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "question": "Si un triángulo tiene un ángulo de 90 grados, ¿cómo se le llama?",
+    "answers": ["Triángulo equilátero", "Triángulo isósceles", "Triángulo rectángulo", "Triángulo obtuso"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 5,
+    "question": "¿Cuántos lados tiene un heptágono?",
+    "answers": ["6", "7", "8", "9"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la fórmula para calcular el área de un círculo?",
+    "answers": ["2πr", "πr²", "πd", "2πd"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la fracción equivalente a 0.25?",
+    "answers": ["1/2", "1/3", "1/4", "2/5"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 8,
+    "question": "¿Cuánto es la raíz cúbica de 27?",
+    "answers": ["2", "3", "9", "27"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Qué término se usa para describir el número que se multiplica por sí mismo en una potencia?",
+    "answers": ["Exponente", "Base", "Potencia", "Raíz"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se llama un número que solo se puede dividir por sí mismo y por 1?",
+    "answers": ["Número compuesto", "Número impar", "Número primo", "Número decimal"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es la suma de los ángulos interiores de un triángulo?",
+    "answers": ["90 grados", "120 grados", "180 grados", "360 grados"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es la forma más simplificada de la fracción 50/100?",
+    "answers": ["1/2", "2/3", "5/10", "25/50"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se llama el punto donde se cruzan las bisectrices de un triángulo?",
+    "answers": ["Baricentro", "Incentro", "Ortócentro", "Circuncentro"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 14,
+    "question": "¿Cuántos centímetros hay en un metro?",
+    "answers": ["10", "100", "1000", "10000"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se llama el polígono que tiene 8 lados?",
+    "answers": ["Hexágono", "Heptágono", "Octágono", "Decágono"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 16,
+    "question": "¿Cuál es la fracción equivalente a 50%?",
+    "answers": ["1/4", "1/2", "1/3", "2/3"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 17,
+    "question": "¿Cuál es la operación inversa de la potenciación?",
+    "answers": ["Multiplicación", "Raíz", "Suma", "División"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es la fórmula para calcular el perímetro de un cuadrado?",
+    "answers": ["4a", "2a", "a²", "a + a + a + a"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "¿Qué número romano representa al 50?",
+    "answers": ["X", "L", "C", "D"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 20,
+    "question": "¿Cuántos segundos hay en una hora?",
+    "answers": ["3600", "1800", "7200", "600"],
+    "correctAnswer": 1
+  }
+]
