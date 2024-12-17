@@ -36,14 +36,14 @@
   background-image: url('/images/js.jpg');
 }
 
-.cg-button::before {
-  background-image: url('/images/cg.jpg');
+.gc-button::before {
+  background-image: url('/images/gc.jpg');
 }
 
 .math-button::before {
-  background-image: url('/images/mat.jpg');
+  background-image: url('/images/math.jpg');
 }
 
-.cp-button::before {
+.cap-button::before {
   background-image: url('/images/cap.jpg');
 }

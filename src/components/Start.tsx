@@ -4,7 +4,24 @@ import Grid from '@mui/material/Grid2'
 import './start.css'
 const Start = () => {
   const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
-
+  const topics = [
+    {
+      name: 'js',
+      label: 'JavaScript'
+    },
+    {
+      name: 'gc',
+      label: 'Cultura general'
+    },
+    {
+      name: 'math',
+      label: 'Matemáticas'
+    },
+    {
+      name: 'cap',
+      label: 'Capitales'
+    }
+  ]
   return (
     <Container maxWidth='lg'>
       <Typography variant='subtitle1' component='p'>
@@ -18,46 +35,18 @@ const Start = () => {
         justifyContent='center'
         sx={{ marginTop: '20px' }}
       >
-        <Grid size={6}>
-          <Button
-            className='button-background js-button '
-            fullWidth
-            onClick={() => fetchQuestions(15, 'js')}
-            variant='contained'
-          >
-            JavaScript
-          </Button>
-        </Grid>
-        <Grid size={6}>
-          <Button
-            className='button-background cg-button'
-            fullWidth
-            onClick={() => fetchQuestions(15, 'cg')}
-            variant='contained'
-          >
-            Cultura general
-          </Button>
-        </Grid>
-        <Grid size={6}>
-          <Button
-            className='button-background math-button'
-            fullWidth
-            onClick={() => fetchQuestions(15, 'mat')}
-            variant='contained'
-          >
-            Matemáticas
-          </Button>
-        </Grid>
-        <Grid size={6}>
-          <Button
-            className='button-background cp-button'
-            fullWidth
-            onClick={() => fetchQuestions(15, 'cp')}
-            variant='contained'
-          >
-            Capitales
-          </Button>
-        </Grid>
+        {topics.map((topic) => (
+          <Grid size={6} key={topic.name}>
+            <Button
+              className={`button-background ${topic.name}-button`}
+              fullWidth
+              onClick={() => fetchQuestions(15, topic.name)}
+              variant='contained'
+            >
+              {topic.label}
+            </Button>
+          </Grid>
+        ))}
       </Grid>
     </Container>
   )
