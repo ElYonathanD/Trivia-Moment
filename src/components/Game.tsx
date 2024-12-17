@@ -1,4 +1,4 @@
-import { Button, Stack } from '@mui/material'
+import { Button, Container, Stack } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
 import Question from './Question'
 import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
@@ -17,7 +17,7 @@ const Game = () => {
     (question) => question.userSelectedAnswer == undefined
   )
   return (
-    <>
+    <Container maxWidth='sm'>
       {!isFinish ? (
         <>
           <Stack
@@ -58,7 +58,7 @@ const Game = () => {
       ) : (
         <Result />
       )}
-    </>
+    </Container>
   )
 }
 

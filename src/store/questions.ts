@@ -4,7 +4,7 @@ import { Question } from '../interface/question'
 interface State {
   questions: Question[]
   currentQuestion: number
-  fetchQuestions: (limit: number) => void
+  fetchQuestions: (limit: number, topic: string) => void
   selectAnswer: (questionId: number, answerIndex: number) => void
   goNextQuestion: () => void
   goPrevQuestion: () => void
@@ -15,8 +15,10 @@ export const useQuestionStore = create<State>((set, get) => {
   return {
     questions: [],
     currentQuestion: 0,
-    fetchQuestions: async (limit: number) => {
-      const res = await fetch('http://localhost:5173/questions/data-js.json')
+    fetchQuestions: async (limit: number, topic: string) => {
+      const res = await fetch(
+        `http://localhost:5173/questions/data-${topic}.json`
+      )
       const data = await res.json()
       const questions = data.sort(() => Math.random() - 0.5).slice(0, limit)
       set({ questions })

@@ -3,120 +3,120 @@
     "id": 1,
     "question": "¿Cuál es el idioma más hablado del mundo?",
     "answers": ["Inglés", "Español", "Chino mandarín", "Hindi"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 2,
     "question": "¿Cuál es la capital de Argentina?",
     "answers": ["Buenos Aires", "Montevideo", "Santiago", "Lima"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 3,
     "question": "¿Cuál es el río más largo del mundo?",
     "answers": ["Amazonas", "Nilo", "Yangtsé", "Mississippi"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 4,
     "question": "¿Qué gas respiramos para vivir?",
     "answers": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Hidrógeno"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 5,
     "question": "¿Cuál es el metal más caro del mundo?",
     "answers": ["Oro", "Platino", "Paladio", "Rodio"],
-    "correctAnswer": 4
+    "correctAnswer": 3
   },
   {
     "id": 6,
     "question": "¿Cuál es la moneda oficial de Japón?",
     "answers": ["Yen", "Won", "Euro", "Dólar"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 7,
     "question": "¿En qué año llegó el hombre a la Luna?",
     "answers": ["1965", "1969", "1972", "1980"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": 8,
     "question": "¿Quién pintó la Mona Lisa?",
     "answers": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 9,
     "question": "¿Cuál es el país más grande del mundo?",
     "answers": ["Rusia", "Canadá", "China", "Estados Unidos"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 10,
     "question": "¿Cuál es el planeta más grande del sistema solar?",
     "answers": ["Tierra", "Júpiter", "Saturno", "Marte"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": 11,
     "question": "¿En qué país se encuentra la Torre Eiffel?",
     "answers": ["Italia", "España", "Francia", "Alemania"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 12,
     "question": "¿Cuál es la capital de Australia?",
     "answers": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 13,
     "question": "¿Cuántos huesos tiene el cuerpo humano?",
     "answers": ["206", "208", "210", "204"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 14,
     "question": "¿Quién escribió Don Quijote de la Mancha?",
     "answers": ["Miguel de Cervantes", "William Shakespeare", "Gabriel García Márquez", "Mario Vargas Llosa"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 15,
     "question": "¿Cuántos continentes hay en el mundo?",
     "answers": ["5", "6", "7", "8"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 16,
     "question": "¿Cuál es el animal más grande del mundo?",
     "answers": ["Elefante africano", "Ballena azul", "Tiburón blanco", "Rinoceronte"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": 17,
     "question": "¿Cuál es el animal más rápido del mundo?",
     "answers": ["Guepardo", "León", "Tigre", "Águila"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": 18,
     "question": "¿Cuál es la montaña más alta del mundo?",
     "answers": ["K2", "Makalu", "Monte Everest", "Kangchenjunga"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 19,
     "question": "¿Cuántos días tiene un año bisiesto?",
     "answers": ["364", "365", "366", "367"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 20,
     "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
     "answers": ["1936", "1939", "1941", "1945"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   }
 ]

@@ -28,10 +28,13 @@ const Question = ({
   return (
     <Card variant='elevation' sx={{ p: 3, textAlign: 'left' }}>
       <Typography variant='h5'>{info.question}</Typography>
-      <SyntaxHighlighter language='javascript' style={nord}>
-        {info.code}
-      </SyntaxHighlighter>
-      <List sx={{ bgcolor: '#313131' }} disablePadding>
+      {info.code && (
+        <SyntaxHighlighter language='javascript' style={nord}>
+          {info.code}
+        </SyntaxHighlighter>
+      )}
+
+      <List sx={{ bgcolor: '#313131', marginTop: '20px' }} disablePadding>
         {info.answers.map((answer, index) => (
           <ListItem
             key={answer}
