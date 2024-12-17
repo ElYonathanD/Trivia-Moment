@@ -14,7 +14,7 @@ const Result = () => {
   return (
     <>
       <p>
-        Total {correctQuestions} de {questions.length}
+        Has contestado correctamente {correctQuestions} de {questions.length}
       </p>
       <Button variant='outlined' onClick={goHome} sx={{ marginBottom: '20px' }}>
         Ir a inicio

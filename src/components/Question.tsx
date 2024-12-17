@@ -41,7 +41,7 @@ const Question = ({
               result
                 ? { bgcolor: getBgColor(info, index) }
                 : index === info.userSelectedAnswer
-                ? { bgcolor: '#aaa' }
+                ? { bgcolor: '#1d2837' }
                 : {}
             }
           >
