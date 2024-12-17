@@ -1,6 +1,7 @@
 import { Button, Typography } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
 import Grid from '@mui/material/Grid2'
+import './start.css'
 const Start = () => {
   const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
 
@@ -18,15 +19,17 @@ const Start = () => {
       >
         <Grid size={6}>
           <Button
+            className='button-background js-button '
             fullWidth
             onClick={() => fetchQuestions(5, 'js')}
             variant='contained'
           >
-            JS
+            JavaScript
           </Button>
         </Grid>
         <Grid size={6}>
           <Button
+            className='button-background cg-button'
             fullWidth
             onClick={() => fetchQuestions(5, 'cg')}
             variant='contained'
@@ -36,6 +39,7 @@ const Start = () => {
         </Grid>
         <Grid size={6}>
           <Button
+            className='button-background math-button'
             fullWidth
             onClick={() => fetchQuestions(5, 'mat')}
             variant='contained'
@@ -45,6 +49,7 @@ const Start = () => {
         </Grid>
         <Grid size={6}>
           <Button
+            className='button-background cp-button'
             fullWidth
             onClick={() => fetchQuestions(5, 'cp')}
             variant='contained'
