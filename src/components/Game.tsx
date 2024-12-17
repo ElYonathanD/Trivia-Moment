@@ -9,6 +9,7 @@ const Game = () => {
   const [isFinish, setIsFinish] = useState(false)
 
   const questions = useQuestionStore((state) => state.questions)
+  const goHome = useQuestionStore((state) => state.goHome)
   const currentQuestion = useQuestionStore((state) => state.currentQuestion)
   const goNextQuestion = useQuestionStore((state) => state.goNextQuestion)
   const goPrevQuestion = useQuestionStore((state) => state.goPrevQuestion)
@@ -18,6 +19,9 @@ const Game = () => {
   )
   return (
     <Container maxWidth='sm'>
+      <Button variant='outlined' onClick={goHome} sx={{ marginBottom: '20px' }}>
+        Ir a inicio
+      </Button>
       {!isFinish ? (
         <>
           <Stack

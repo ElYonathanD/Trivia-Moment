@@ -44,12 +44,12 @@ const Question = ({
               result
                 ? { bgcolor: getBgColor(info, index) }
                 : index === info.userSelectedAnswer
-                ? { bgcolor: '#1d2837' }
+                ? { bgcolor: '#2667c1' }
                 : {}
             }
           >
             <ListItemButton
-              disabled={result}
+              sx={result ? { pointerEvents: 'none' } : {}}
               onClick={() => selectAnswer(info.id, index)}
             >
               <ListItemText primary={answer} />
