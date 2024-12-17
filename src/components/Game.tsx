@@ -12,16 +12,27 @@ const Game = () => {
   const goHome = useQuestionStore((state) => state.goHome)
   const currentQuestion = useQuestionStore((state) => state.currentQuestion)
   const goNextQuestion = useQuestionStore((state) => state.goNextQuestion)
+  const goQuestion = useQuestionStore((state) => state.goQuestion)
   const goPrevQuestion = useQuestionStore((state) => state.goPrevQuestion)
   const infoQuestion = questions[currentQuestion]
   const missingAnswer = questions.some(
     (question) => question.userSelectedAnswer == undefined
   )
   return (
-    <Container maxWidth='sm'>
-      <Button variant='outlined' onClick={goHome} sx={{ marginBottom: '20px' }}>
+    <Container maxWidth='md' sx={{ padding: 0 }}>
+      <Button
+        variant='outlined'
+        onClick={goHome}
+        sx={{
+          marginBottom: '20px',
+          display: 'block',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}
+      >
         Ir a inicio
       </Button>
+
       {!isFinish ? (
         <>
           <Stack
@@ -29,7 +40,6 @@ const Game = () => {
             gap={4}
             alignItems='center'
             justifyContent='center'
-            sx={{ marginBottom: '20px' }}
           >
             <Button
               variant='outlined'
@@ -48,7 +58,7 @@ const Game = () => {
             </Button>
           </Stack>
           <Question info={infoQuestion} />
-          {currentQuestion === questions.length - 1 && (
+          <Stack direction='column'>
             <Button
               variant='outlined'
               sx={{ marginTop: '20px', float: 'right' }}
@@ -57,7 +67,35 @@ const Game = () => {
             >
               Finalizar
             </Button>
-          )}
+            <Stack
+              direction='row'
+              justifyContent='center'
+              gap={2}
+              sx={{ marginTop: '20px', flexWrap: 'wrap' }}
+            >
+              {questions.map((question, index) => (
+                <Button
+                  key={question.id}
+                  sx={{
+                    borderBottom:
+                      question.userSelectedAnswer !== undefined
+                        ? '1px solid white'
+                        : '',
+                    backgroundColor:
+                      question.userSelectedAnswer !== undefined
+                        ? '#173e75'
+                        : 'transparent',
+                    color: 'white',
+                    transition: 'all 0.3s ease'
+                  }}
+                  variant='outlined'
+                  onClick={() => goQuestion(index)}
+                >
+                  {index + 1}
+                </Button>
+              ))}
+            </Stack>
+          </Stack>
         </>
       ) : (
         <Result />

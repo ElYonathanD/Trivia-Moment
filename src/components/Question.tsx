@@ -26,8 +26,18 @@ const Question = ({
   const selectAnswer = useQuestionStore((state) => state.selectAnswer)
 
   return (
-    <Card variant='elevation' sx={{ p: 3, textAlign: 'left' }}>
-      <Typography variant='h5'>{info.question}</Typography>
+    <Card
+      variant='elevation'
+      sx={{ p: 3, textAlign: 'left', marginTop: '20px' }}
+    >
+      <Typography
+        variant='h5'
+        sx={{
+          fontSize: { xs: '16px', md: '24px' }
+        }}
+      >
+        {info.question}
+      </Typography>
       {info.code && (
         <SyntaxHighlighter language='javascript' style={nord}>
           {info.code}
@@ -44,7 +54,7 @@ const Question = ({
               result
                 ? { bgcolor: getBgColor(info, index) }
                 : index === info.userSelectedAnswer
-                ? { bgcolor: '#2667c1' }
+                ? { bgcolor: '#173e75' }
                 : {}
             }
           >

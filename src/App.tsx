@@ -1,4 +1,4 @@
-import { Container, Stack } from '@mui/material'
+import { Stack } from '@mui/material'
 import './App.css'
 import Start from './components/Start'
 import { useQuestionStore } from './store/questions'
@@ -14,9 +14,7 @@ function App() {
         alignItems='center'
         justifyContent='center'
       >
-        <Container>
-          <h1>Quiz App</h1>
-        </Container>
+        <h1>Quiz App</h1>
         {questions.length === 0 ? <Start /> : <Game />}
       </Stack>
     </main>

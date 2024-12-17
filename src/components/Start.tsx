@@ -21,7 +21,7 @@ const Start = () => {
           <Button
             className='button-background js-button '
             fullWidth
-            onClick={() => fetchQuestions(5, 'js')}
+            onClick={() => fetchQuestions(15, 'js')}
             variant='contained'
           >
             JavaScript
@@ -31,7 +31,7 @@ const Start = () => {
           <Button
             className='button-background cg-button'
             fullWidth
-            onClick={() => fetchQuestions(5, 'cg')}
+            onClick={() => fetchQuestions(15, 'cg')}
             variant='contained'
           >
             Cultura general
@@ -41,7 +41,7 @@ const Start = () => {
           <Button
             className='button-background math-button'
             fullWidth
-            onClick={() => fetchQuestions(5, 'mat')}
+            onClick={() => fetchQuestions(15, 'mat')}
             variant='contained'
           >
             Matemáticas
@@ -51,7 +51,7 @@ const Start = () => {
           <Button
             className='button-background cp-button'
             fullWidth
-            onClick={() => fetchQuestions(5, 'cp')}
+            onClick={() => fetchQuestions(15, 'cp')}
             variant='contained'
           >
             Capitales
