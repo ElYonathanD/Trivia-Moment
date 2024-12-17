@@ -1,0 +1,17 @@
+.home-button {
+  display: block;
+  margin-bottom: 20px;
+  margin-inline: auto;
+}
+.finish-button {
+  margin-top: 20px;
+}
+
+.questions-number-button {
+  color: white;
+  transition: all 0.3s ease;
+}
+.questions-number-button.answered {
+  border-bottom: 1px solid white;
+  background-color: #173e75;
+}

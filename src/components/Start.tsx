@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
 import Grid from '@mui/material/Grid2'
-import './start.css'
+import '../styles/start.css'
 const Start = () => {
   const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
   const topics = [

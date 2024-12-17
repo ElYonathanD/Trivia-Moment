@@ -1,0 +1,18 @@
+.card-question {
+  padding: 24px;
+  text-align: left;
+  margin-top: 20px;
+}
+.card-question h5 {
+  font-size: 1rem;
+}
+
+.options-list {
+  background-color: #313131;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .card-question h5 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,3 +1,4 @@
+import '../styles/question.css'
 import {
   Card,
   List,
@@ -10,6 +11,7 @@ import { Question as QuestionType } from '../interface/question'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { useQuestionStore } from '../store/questions'
+
 const getBgColor = (info: QuestionType, index: number) => {
   if (info.correctAnswer == index) return '#106b10'
   if (info.userSelectedAnswer == index && !info.isCorrectUserAnswer)
@@ -26,25 +28,15 @@ const Question = ({
   const selectAnswer = useQuestionStore((state) => state.selectAnswer)
 
   return (
-    <Card
-      variant='elevation'
-      sx={{ p: 3, textAlign: 'left', marginTop: '20px' }}
-    >
-      <Typography
-        variant='h5'
-        sx={{
-          fontSize: { xs: '16px', md: '24px' }
-        }}
-      >
-        {info.question}
-      </Typography>
+    <Card variant='elevation' className='card-question '>
+      <Typography variant='h5'>{info.question}</Typography>
       {info.code && (
         <SyntaxHighlighter language='javascript' style={nord}>
           {info.code}
         </SyntaxHighlighter>
       )}
 
-      <List sx={{ bgcolor: '#313131', marginTop: '20px' }} disablePadding>
+      <List className='options-list' disablePadding>
         {info.answers.map((answer, index) => (
           <ListItem
             key={answer}

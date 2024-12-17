@@ -1,8 +1,9 @@
+import '../styles/game.css'
+import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
 import { Button, Container, Stack } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
-import Question from './Question'
-import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
 import { useState } from 'react'
+import Question from './Question'
 import Result from './Result'
 
 const Game = () => {
@@ -20,16 +21,7 @@ const Game = () => {
   )
   return (
     <Container maxWidth='lg' sx={{ padding: 0 }}>
-      <Button
-        variant='outlined'
-        onClick={goHome}
-        sx={{
-          marginBottom: '20px',
-          display: 'block',
-          marginLeft: 'auto',
-          marginRight: 'auto'
-        }}
-      >
+      <Button variant='outlined' onClick={goHome} className='home-button'>
         Ir a inicio
       </Button>
 
@@ -61,7 +53,7 @@ const Game = () => {
           <Stack direction='column'>
             <Button
               variant='outlined'
-              sx={{ marginTop: '20px' }}
+              className='finish-button'
               onClick={() => setIsFinish(!isFinish)}
               disabled={missingAnswer}
             >
@@ -71,19 +63,15 @@ const Game = () => {
               direction='row'
               justifyContent='center'
               gap={2}
-              sx={{ marginTop: '20px', flexWrap: 'wrap' }}
+              flexWrap='wrap'
+              sx={{ marginTop: '20px' }}
             >
               {questions.map((question, index) => (
                 <Button
                   key={question.id}
-                  sx={{
-                    color: 'white',
-                    transition: 'all 0.3s ease',
-                    ...(question.userSelectedAnswer !== undefined && {
-                      borderBottom: '1px solid white',
-                      backgroundColor: '#173e75'
-                    })
-                  }}
+                  className={`questions-number-button ${
+                    question.userSelectedAnswer !== undefined ? 'answered' : ''
+                  }`}
                   variant='outlined'
                   onClick={() => goQuestion(index)}
                 >
