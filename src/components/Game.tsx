@@ -19,7 +19,7 @@ const Game = () => {
     (question) => question.userSelectedAnswer == undefined
   )
   return (
-    <Container maxWidth='md' sx={{ padding: 0 }}>
+    <Container maxWidth='lg' sx={{ padding: 0 }}>
       <Button
         variant='outlined'
         onClick={goHome}
@@ -61,7 +61,7 @@ const Game = () => {
           <Stack direction='column'>
             <Button
               variant='outlined'
-              sx={{ marginTop: '20px', float: 'right' }}
+              sx={{ marginTop: '20px' }}
               onClick={() => setIsFinish(!isFinish)}
               disabled={missingAnswer}
             >
@@ -77,16 +77,12 @@ const Game = () => {
                 <Button
                   key={question.id}
                   sx={{
-                    borderBottom:
-                      question.userSelectedAnswer !== undefined
-                        ? '1px solid white'
-                        : '',
-                    backgroundColor:
-                      question.userSelectedAnswer !== undefined
-                        ? '#173e75'
-                        : 'transparent',
                     color: 'white',
-                    transition: 'all 0.3s ease'
+                    transition: 'all 0.3s ease',
+                    ...(question.userSelectedAnswer !== undefined && {
+                      borderBottom: '1px solid white',
+                      backgroundColor: '#173e75'
+                    })
                   }}
                   variant='outlined'
                   onClick={() => goQuestion(index)}

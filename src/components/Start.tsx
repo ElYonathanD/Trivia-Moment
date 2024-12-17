@@ -1,4 +1,4 @@
-import { Button, Typography } from '@mui/material'
+import { Button, Container, Typography } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
 import Grid from '@mui/material/Grid2'
 import './start.css'
@@ -6,7 +6,7 @@ const Start = () => {
   const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
 
   return (
-    <>
+    <Container maxWidth='lg'>
       <Typography variant='subtitle1' component='p'>
         Elije uno de nuestros temas y contesta las preguntas
       </Typography>
@@ -16,6 +16,7 @@ const Start = () => {
         columns={{ xs: 4, sm: 8, md: 12 }}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         justifyContent='center'
+        sx={{ marginTop: '20px' }}
       >
         <Grid size={6}>
           <Button
@@ -58,7 +59,7 @@ const Start = () => {
           </Button>
         </Grid>
       </Grid>
-    </>
+    </Container>
   )
 }
 
