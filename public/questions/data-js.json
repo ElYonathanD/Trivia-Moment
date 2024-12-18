@@ -108,6 +108,17 @@
     "correctAnswer": 2
   },
   {
+    "id": 10,
+    "question": "¿Cuál es la diferencia entre null y undefined ?",
+    "answers": [
+      "El valor null representa intencionalmente un valor nulo o 'vacío' y undefined es el valor por default que se le asigna a una variable que esta sin definir aun",
+      "El valor null se usa para objetos vacíos y undefined para cadenas vacías",
+      "null se usa para números mientras que undefined se usa para objetos",
+      "No hay diferencias"
+    ],
+    "correctAnswer": 0
+  },
+  {
     "id": 11,
     "question": "¿Cuál es la salida de este código?",
     "code": "console.log(0.1 + 0.2 === 0.3)",
@@ -578,7 +589,6 @@
   {
     "id": 50,
     "question": "¿Cuál es el resultado de la siguiente expresión: [1, 2, 3].filter(num => num > 1);",
-    "code": "",
     "answers": [
       "[1, 2, 3]",
       "[2, 3]",
@@ -586,5 +596,555 @@
       "[3]"
     ],
     "correctAnswer": 1
+  },
+  {
+    "id": 51,
+    "question": "¿Cómo puedes clonar un nodo en el DOM y sus elementos hijos?",
+    "answers": [
+      "Usando `element.copyNode()`",
+      "Usando `element.duplicate()`",
+      "Usando `element.replicate()`",
+      "Usando `element.cloneNode(true)`"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 52,
+    "question": "¿Qué evento se dispara cuando se envía un formulario en el DOM?",
+    "answers": [
+      "change",
+      "submit",
+      "load",
+      "focus"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "question": "¿Qué método se utiliza para comparar si dos nodos son iguales en el DOM?",
+    "answers": [
+      "isEqualNode",
+      "isSameNode",
+      "compareNodes",
+      "equals"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 54,
+    "question": "¿Cómo puedes añadir una clase a un elemento usando JavaScript y el DOM?",
+    "answers": [
+      "element.addClass('clase')",
+      "element.addClassName('clase')",
+      "element.classList.add('clase')",
+      "element.classList.create('clase')"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 55,
+    "question": "¿Cómo puedes reemplazar un nodo en el DOM por otro?",
+    "answers": [
+      "parent.replaceNode(oldNode, newNode)",
+      "parent.replaceChild(newNode, oldNode)",
+      "document.replaceChild(oldNode, newNode)",
+      "document.replaceNode(oldNode, newNode)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 56,
+    "question": "¿Cómo puedes verificar si un elemento contiene otra clase usando el DOM?",
+    "answers": [
+      "element.classList.contains('clase')",
+      "element.hasClass('clase')",
+      "element.containsClass('clase')",
+      "element.classExists('clase')"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 57,
+    "question": "¿Qué evento se dispara cuando un elemento de entrada pierde el enfoque?",
+    "answers": [
+      "blur",
+      "focusout",
+      "leave",
+      "exit"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 58,
+    "question": "¿Cómo se puede escuchar eventos de teclado en todo el documento?",
+    "answers": [
+      "window.addEventListener('keypress', handler)",
+      "window.onKeyPress(handler)",
+      "window.addEventListener('keydown', handler)",
+      "document.onKeyDown(handler)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 59,
+    "question": "¿Cómo puedes desplazar la página hacia la parte superior?",
+    "answers": [
+      "document.scrollToTop()",
+      "window.pageScrollTop()",
+      "window.scrollTo(0, 0)",
+      "document.pageScrollTop()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 60,
+    "question": "¿Qué evento se dispara cuando la página ha terminado de cargarse?",
+    "answers": [
+      "DOMContentLoaded",
+      "load",
+      "ready",
+      "complete"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 61,
+    "question": "¿Cómo puedes obtener el primer elemento que coincide con un selector CSS?",
+    "answers": [
+      "document.querySelector(selector)",
+      "document.query(selector)",
+      "document.getElementBySelector(selector)",
+      "document.queryAll(selector)[0]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 62,
+    "question": "¿Cómo puedes recorrer todos los nodos hijos de un elemento en el DOM?",
+    "answers": [
+      "element.children.forEach()",
+      "element.nodes.forEach()",
+      "element.childNodes.forEach()",
+      "element.childList.forEach()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 63,
+    "question": "¿Cómo puedes añadir múltiples clases a un elemento en el DOM?",
+    "answers": [
+      "element.addClasses('clase1', 'clase2')",
+      "element.classList.add('clase1', 'clase2')",
+      "element.classList.addClasses(['clase1', 'clase2'])",
+      "element.classList.create('clase1', 'clase2')"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 64,
+    "question": "¿Cómo puedes alternar (toggle) una clase de un elemento en el DOM?",
+    "answers": [
+      "element.toggleClass('clase')",
+      "element.classList.toggle('clase')",
+      "element.classToggle('clase')",
+      "element.toggle('clase')"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "question": "¿Cómo puedes crear un nuevo elemento HTML en el DOM?",
+    "answers": [
+      "document.createHtml('div')",
+      "document.newElement('div')",
+      "document.buildElement('div')",
+      "document.createElement('div')"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 66,
+    "question": "¿Cómo puedes eliminar un atributo de un elemento en el DOM?",
+    "answers": [
+      "element.deleteAttribute('attr')",
+      "element.removeAttribute('attr')",
+      "element.clearAttribute('attr')",
+      "element.eraseAttribute('attr')"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 67,
+    "question": "¿Qué propiedad se usa para acceder al contenido de texto de un elemento en el DOM?",
+    "answers": [
+      "innerText",
+      "innerHTML",
+      "textContent",
+      "outerHTML"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 68,
+    "question": "¿Qué propiedad de un elemento del DOM te permite obtener su contenido HTML?",
+    "answers": [
+      "innerHTML",
+      "textContent",
+      "outerHTML",
+      "innerText"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 69,
+    "question": "¿Cómo puedes detener la propagación de un evento en el DOM?",
+    "answers": [
+      "event.preventPropagation()",
+      "event.stopBubble()",
+      "event.stopPropagation()",
+      "event.preventBubble()"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 70,
+    "question": "¿Cómo puedes prevenir la acción predeterminada de un evento en el DOM?",
+    "answers": [
+      "event.stopDefault()",
+      "event.preventDefault()",
+      "event.defaultAction(false)",
+      "event.stopAction()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 71,
+    "question": "¿Cómo se detecta si un elemento está visible en la pantalla?",
+    "answers": [
+      "element.getBoundingClientRect().top < window.innerHeight",
+      "element.isVisible()",
+      "document.isElementVisible(element)",
+      "window.isElementInViewport(element)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "question": "¿Cuál es la forma correcta de establecer el atributo 'src' de una imagen en el DOM?",
+    "answers": [
+      "image.setAttribute('src', 'url')",
+      "image.source = 'url'",
+      "image.src = 'url'",
+      "image.setSource('url')"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 73,
+    "question": "¿Cómo puedes asignar varios atributos a un elemento del DOM?",
+    "answers": [
+      "element.setAttributeMultiple({ 'src': 'image.jpg', 'alt': 'description' })",
+      "Object.assign(element.attributes, { 'src': 'image.jpg', 'alt': 'description' })",
+      "element.assignAttributes({ 'src': 'image.jpg', 'alt': 'description' })",
+      "element.addAttributes({ 'src': 'image.jpg', 'alt': 'description' })"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 74,
+    "question": "¿Cómo puedes agregar un evento que solo se dispare una vez en el DOM?",
+    "answers": [
+      "element.onClickOnce(handler)",
+      "element.addEventListenerOnce('click', handler)",
+      "element.addEventListener('click', handler, { once: true })",
+      "element.oneClickEvent(handler)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 75,
+    "question": "¿Cuál es la diferencia entre previousSibling y previousElementSibling en el DOM?",
+    "answers": [
+      "previousSibling incluye nodos de texto, previousElementSibling solo elementos",
+      "Ambos acceden al nodo anterior, pero uno es asincrónico",
+      "previousSibling selecciona solo elementos visibles, previousElementSibling selecciona cualquier elemento",
+      "No hay diferencia entre ellos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 76,
+    "question": "¿Cómo puedes agregar un nodo como el primer hijo de un elemento en el DOM?",
+    "answers": [
+      "parent.addFirstChild(newNode)",
+      "parent.appendFirst(newNode)",
+      "parent.insertChildAtStart(newNode)",
+      "parent.prepend(newNode)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 77,
+    "question": "¿Cómo puedes acceder al elemento que disparó un evento en el DOM?",
+    "answers": [
+      "event.currentElement",
+      "event.target",
+      "event.element",
+      "event.source"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 78,
+    "question": "¿Cómo puedes mover un elemento a otra parte del DOM?",
+    "answers": [
+      "element.moveTo(newParent)",
+      "element.moveToParent(newParent)",
+      "element.move(newParent)",
+      "newParent.appendChild(element)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 79,
+    "question": "¿Cómo puedes capturar todos los elementos de un formulario?",
+    "answers": [
+      "form.elements",
+      "form.getAllInputs()",
+      "form.getElements()",
+      "form.querySelectorAll('input, select, textarea')"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 80,
+    "question": "¿Cuál es la diferencia entre firstElementChild y firstChild en el DOM?",
+    "answers": [
+      "firstChild excluye nodos de texto, firstElementChild los incluye",
+      "Ambos seleccionan el primer hijo elemento",
+      "firstElementChild excluye nodos de texto, firstChild los incluye",
+      "No hay diferencia entre ellos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 81,
+    "question": "¿Cómo puedes añadir un evento de clic a varios elementos de la misma clase?",
+    "answers": [
+      "document.querySelectorAll('.class').addEventListener('click', handler)",
+      "document.addClickEventToAll('.class', handler)",
+      "document.attachClickToAll('.class', handler)",
+      "document.querySelectorAll('.class').forEach(el => el.addEventListener('click', handler))"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 82,
+    "question": "¿Qué evento se dispara cuando un usuario modifica texto en un campo de entrada?",
+    "answers": [
+      "select",
+      "focus",
+      "input",
+      "change"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 83,
+    "question": "¿Cómo puedes acceder a la posición de desplazamiento vertical de la ventana?",
+    "answers": [
+      "document.scrollY",
+      "window.scrollY",
+      "document.pageYOffset",
+      "window.pageScrollY"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 84,
+    "question": "¿Cómo puedes acceder al último hijo de un elemento en el DOM?",
+    "answers": [
+      "element.getLastChild()",
+      "element.lastChildElement",
+      "element.lastElementChild",
+      "element.childNodes[element.childNodes.length - 1]"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 85,
+    "question": "¿Cómo puedes obtener todos los elementos con una clase específica en el DOM?",
+    "answers": [
+      "document.getClassElements('class')",
+      "document.getElementsByClass('class')",
+      "document.getElementsByClassName('class')",
+      "document.selectClassElements('class')"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 86,
+    "question": "¿Cómo puedes saber la cantidad de hijos de un elemento en el DOM?",
+    "answers": [
+      "element.children.length",
+      "element.childCount",
+      "element.childNodes.length",
+      "element.childQuantity()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "question": "¿Cómo puedes evitar que un formulario recargue la página al enviarlo?",
+    "answers": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.cancel()",
+      "event.preventReload()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 88,
+    "question": "¿Cuál es la forma correcta de acceder a la URL de la página actual?",
+    "answers": [
+      "document.URL",
+      "window.href",
+      "window.location.href",
+      "document.location.URL"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 89,
+    "question": "¿Cómo puedes acceder al valor de un campo de entrada en el DOM?",
+    "answers": [
+      "input.getAttribute('value')",
+      "input.value",
+      "input.textContent",
+      "input.innerText"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 90,
+    "question": "¿Cómo puedes acceder a la posición de desplazamiento horizontal de la ventana?",
+    "answers": [
+      "window.pageXOffset",
+      "document.scrollX",
+      "window.pageScrollX",
+      "window.scrollX"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 91,
+    "question": "¿Cómo puedes obtener el elemento padre de un nodo en el DOM?",
+    "answers": [
+      "element.parentElement",
+      "element.parentNode",
+      "element.getParent()",
+      "element.parent()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 92,
+    "question": "¿Qué evento se dispara cuando se cambia el tamaño de la ventana?",
+    "answers": [
+      "resize",
+      "change",
+      "windowResize",
+      "screenChange"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 93,
+    "question": "¿Cómo puedes seleccionar todos los elementos con la misma etiqueta en el DOM?",
+    "answers": [
+      "document.getElementsByTagName('tag')",
+      "document.querySelectorAll('tag')",
+      "document.getElementsByClassName('tag')",
+      "document.getAllTags('tag')"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 94,
+    "question": "¿Qué evento se dispara cuando el usuario suelta una tecla en el teclado?",
+    "answers": [
+      "keydown",
+      "keyup",
+      "keypress",
+      "keyrelease"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 95,
+    "question": "¿Cómo se puede cambiar el contenido de texto de un elemento en el DOM?",
+    "answers": [
+      "element.innerText = 'Nuevo texto'",
+      "element.textContent = 'Nuevo texto'",
+      "element.setText('Nuevo texto')",
+      "element.text = 'Nuevo texto'"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 96,
+    "question": "¿Qué evento se dispara cuando se cambia el valor de un campo de entrada?",
+    "answers": [
+      "input",
+      "keyup",
+      "change",
+      "keydown"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 97,
+    "question": "¿Cómo puedes modificar el estilo CSS de un elemento en el DOM?",
+    "answers": [
+      "element.setStyle('color', 'red')",
+      "element.style.color = 'red'",
+      "element.setCSS('color', 'red')",
+      "element.addStyle('color', 'red')"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 98,
+    "question": "¿Cómo puedes hacer que un campo de entrada esté deshabilitado usando el DOM?",
+    "answers": [
+      "input.disabled = true",
+      "input.setDisabled(true)",
+      "input.addAttribute('disabled')",
+      "input.disable = true"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 99,
+    "question": "¿Cómo puedes obtener todos los elementos con un atributo específico en el DOM?",
+    "answers": [
+      "document.getElementsByAttribute('attr')",
+      "document.querySelectorAll('[attr]')",
+      "document.getElementsByTagName('attr')",
+      "document.querySelectorAll('attr')"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 100,
+    "question": "¿Cuál es la forma correcta de detectar cuando se hace clic fuera de un elemento?",
+    "answers": [
+      "Usando el evento 'mouseleave' en el elemento",
+      "Usando el evento 'blur' en el elemento",
+      "Usando el evento 'outsideclick' en el elemento",
+      "Usando el evento 'click' en document y verificando el target"
+    ],
+    "correctAnswer": 3
   }
 ]

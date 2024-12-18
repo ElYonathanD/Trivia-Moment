@@ -118,5 +118,485 @@
     "question": "¿Cuántos segundos hay en una hora?",
     "answers": ["3600", "1800", "7200", "600"],
     "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se llama el cuadrilátero que tiene todos sus lados iguales y sus ángulos rectos?",
+    "answers": ["Rectángulo", "Rombo", "Cuadrado", "Trapecio"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "question": "¿Cuál es el valor de π (pi) aproximado a dos decimales?",
+    "answers": ["3.14", "3.15", "3.16", "3.13"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cuál es el doble de 7?",
+    "answers": ["12", "14", "15", "16"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "question": "¿Cuántos grados tiene un ángulo recto?",
+    "answers": ["45", "90", "180", "360"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se llama la parte de la geometría que estudia los puntos, líneas, planos y figuras?",
+    "answers": ["Aritmética", "Álgebra", "Geometría", "Trigonometría"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 26,
+    "question": "¿Cuál es la raíz cuadrada de 144?",
+    "answers": ["10", "11", "12", "13"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se llama el número que se encuentra en la parte superior de una fracción?",
+    "answers": ["Denominador", "Numerador", "Divisor", "Factor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "question": "¿Cuál es la unidad de medida para los ángulos?",
+    "answers": ["Grados", "Metros", "Litros", "Segundos"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cuánto es 9 x 8?",
+    "answers": ["72", "81", "63", "64"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cuál es la fórmula para calcular el área de un triángulo?",
+    "answers": ["base x altura", "(base x altura) / 2", "base + altura", "base / altura"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se llama un polígono de 10 lados?",
+    "answers": ["Hexágono", "Octágono", "Decágono", "Pentágono"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 32,
+    "question": "¿Cuántas caras tiene un cubo?",
+    "answers": ["4", "6", "8", "12"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 33,
+    "question": "¿Cuál es la suma de los primeros cinco números naturales?",
+    "answers": ["10", "15", "20", "25"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 34,
+    "question": "¿Cuánto es 45 dividido por 5?",
+    "answers": ["8", "9", "10", "11"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "¿Qué tipo de número es 3.14159?",
+    "answers": ["Entero", "Decimal", "Irracional", "Natural"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es el valor de 7 + 3 x 2?",
+    "answers": ["20", "13", "17", "10"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "¿Cuántos minutos hay en una hora y media?",
+    "answers": ["60", "90", "120", "150"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál es la forma decimal de 3/4?",
+    "answers": ["0.5", "0.75", "1.25", "1.5"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál es la representación romana del número 100?",
+    "answers": ["X", "L", "C", "D"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 40,
+    "question": "¿Cuántos vértices tiene un cubo?",
+    "answers": ["6", "8", "10", "12"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "¿Cuánto es 100 - 75?",
+    "answers": ["15", "20", "25", "30"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 42,
+    "question": "¿Cuál es la operación inversa de la división?",
+    "answers": ["Suma", "Multiplicación", "Potenciación", "Raíz"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "¿Cuántos lados tiene un pentágono?",
+    "answers": ["4", "5", "6", "7"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "¿Cuál es el área de un cuadrado con lado de 4 cm?",
+    "answers": ["8 cm²", "12 cm²", "16 cm²", "20 cm²"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 45,
+    "question": "¿Cuál es la mitad de 64?",
+    "answers": ["16", "32", "48", "64"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es la suma de 3/5 y 2/5?",
+    "answers": ["2", "2/5", "5/5", "1/5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 47,
+    "question": "¿Cuántas diagonales tiene un hexágono?",
+    "answers": ["6", "9", "12", "15"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 48,
+    "question": "¿Cuántas cifras tiene el número 1000?",
+    "answers": ["2", "3", "4", "5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "¿Qué tipo de número es 7?",
+    "answers": ["Compuesto", "Primo", "Decimal", "Par"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "question": "¿Cuánto es 2 elevado a la 5ta potencia?",
+    "answers": ["16", "32", "64", "128"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 51,
+    "question": "¿Cuántos grados tiene un círculo completo?",
+    "answers": ["90", "180", "270", "360"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál es el múltiplo común más pequeño de 4 y 6?",
+    "answers": ["12", "24", "36", "48"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 53,
+    "question": "¿Cuál es la fracción equivalente de 0.75?",
+    "answers": ["1/2", "3/4", "2/5", "4/5"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 54,
+    "question": "¿Cuánto es 9 + 6 ÷ 3?",
+    "answers": ["5", "11", "15", "18"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "question": "¿Cuánto es 25 x 4?",
+    "answers": ["50", "75", "100", "125"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 56,
+    "question": "¿Cuántos lados tiene un dodecágono?",
+    "answers": ["10", "11", "12", "13"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 57,
+    "question": "¿Cómo se llama el número que se encuentra debajo de la línea en una fracción?",
+    "answers": ["Numerador", "Divisor", "Denominador", "Factor"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 58,
+    "question": "¿Cuál es la suma de los primeros tres números primos?",
+    "answers": ["10", "11", "12", "13"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 59,
+    "question": "¿Cuál es la representación romana del número 500?",
+    "answers": ["L", "C", "D", "M"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 60,
+    "question": "¿Cuánto es 8 x 7?",
+    "answers": ["54", "56", "64", "72"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 61,
+    "question": "¿Cuál es el número opuesto de -8?",
+    "answers": ["-8", "0", "8", "1"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 62,
+    "question": "¿Cuántos milímetros hay en un centímetro?",
+    "answers": ["1", "10", "100", "1000"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 63,
+    "question": "¿Cuál es el resultado de la raíz cuadrada de 169?",
+    "answers": ["11", "12", "13", "14"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 64,
+    "question": "¿Cuántas diagonales tiene un cuadrado?",
+    "answers": ["1", "2", "3", "4"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "question": "¿Cuánto es 3 x 3 x 3?",
+    "answers": ["9", "18", "27", "36"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 66,
+    "question": "¿Cómo se llama un ángulo de 180 grados?",
+    "answers": ["Agudo", "Recto", "Obtuso", "Llano"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 67,
+    "question": "¿Cuántos grados tiene un triángulo equilátero en cada uno de sus ángulos?",
+    "answers": ["30", "45", "60", "90"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 68,
+    "question": "¿Cuánto es la suma de los ángulos internos de un cuadrilátero?",
+    "answers": ["180°", "270°", "360°", "450°"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es el resultado de 5 elevado a la 3?",
+    "answers": ["15", "25", "125", "625"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 70,
+    "question": "¿Cómo se llama la línea que divide a un círculo en dos partes iguales?",
+    "answers": ["Radio", "Diámetro", "Circunferencia", "Secante"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 71,
+    "question": "¿Cuántas aristas tiene un cubo?",
+    "answers": ["8", "10", "12", "14"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 72,
+    "question": "¿Cuál es la fracción irreducible de 18/24?",
+    "answers": ["3/4", "2/3", "4/6", "9/12"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 73,
+    "question": "¿Cuánto es 81 dividido entre 9?",
+    "answers": ["7", "8", "9", "10"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 74,
+    "question": "¿Cuál es la representación decimal de 2/5?",
+    "answers": ["0.2", "0.25", "0.4", "0.5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 75,
+    "question": "¿Cuánto es la raíz cuadrada de 225?",
+    "answers": ["12", "13", "14", "15"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 76,
+    "question": "¿Cuántas caras tiene un prisma triangular?",
+    "answers": ["4", "5", "6", "7"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 77,
+    "question": "¿Cuánto es 9 + 5 x 2?",
+    "answers": ["19", "28", "18", "20"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 78,
+    "question": "¿Cuántos decímetros hay en un metro?",
+    "answers": ["10", "100", "1000", "1"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 79,
+    "question": "¿Cuál es la fórmula para calcular la longitud de la circunferencia de un círculo?",
+    "answers": ["2πr", "πr²", "πd", "r²"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 80,
+    "question": "¿Cuántos días tiene un año bisiesto?",
+    "answers": ["364", "365", "366", "367"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 81,
+    "question": "¿Cuántos vértices tiene un tetraedro?",
+    "answers": ["4", "6", "8", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 82,
+    "question": "¿Cuánto es 45 + 30?",
+    "answers": ["65", "70", "75", "85"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 83,
+    "question": "¿Cómo se llama el polígono de tres lados?",
+    "answers": ["Triángulo", "Cuadrado", "Pentágono", "Hexágono"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 84,
+    "question": "¿Cuánto es 10% de 200?",
+    "answers": ["10", "20", "30", "40"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 85,
+    "question": "¿Cuánto es 64 ÷ 8?",
+    "answers": ["6", "7", "8", "9"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 86,
+    "question": "¿Qué figura tiene todas sus caras en forma de triángulo equilátero?",
+    "answers": ["Cubo", "Pirámide", "Tetraedro", "Octaedro"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 87,
+    "question": "¿Cuántos minutos hay en 3 horas?",
+    "answers": ["60", "120", "180", "240"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 88,
+    "question": "¿Cuánto es 1000 ÷ 10?",
+    "answers": ["10", "100", "1000", "10000"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 89,
+    "question": "¿Cuánto es 2 + 2 x 2?",
+    "answers": ["6", "8", "4", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 90,
+    "question": "¿Cuántos segundos hay en 2 horas?",
+    "answers": ["3600", "5400", "7200", "10800"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 91,
+    "question": "¿Cuánto es 15 x 6?",
+    "answers": ["80", "85", "90", "95"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 92,
+    "question": "¿Cuánto es 7 x 9?",
+    "answers": ["56", "62", "63", "69"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 93,
+    "question": "¿Cuántos lados tiene un eneágono?",
+    "answers": ["8", "9", "10", "11"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 94,
+    "question": "¿Cuál es el valor absoluto de -25?",
+    "answers": ["-25", "0", "25", "-1"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 95,
+    "question": "¿Cuál es la suma de los ángulos internos de un hexágono?",
+    "answers": ["360°", "540°", "720°", "900°"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 96,
+    "question": "¿Cuántas aristas tiene una pirámide cuadrangular?",
+    "answers": ["6", "8", "10", "12"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 97,
+    "question": "¿Cuánto es 18 ÷ 3?",
+    "answers": ["5", "6", "7", "8"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 98,
+    "question": "¿Cuánto es la raíz cúbica de 64?",
+    "answers": ["3", "4", "5", "6"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 99,
+    "question": "¿Cuánto es 2⁴ (2 elevado a la cuarta potencia)?",
+    "answers": ["8", "12", "16", "20"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 100,
+    "question": "¿Cuánto es 1/2 + 3/4?",
+    "answers": ["1", "1/4", "5/4", "1 1/2"],
+    "correctAnswer": 2
   }
 ]

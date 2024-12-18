@@ -118,5 +118,487 @@
     "question": "¿Cuál es la capital de India?",
     "answers": ["Mumbai", "Delhi", "Nueva Delhi", "Bangalore"],
     "correctAnswer": 2
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es la capital de Corea del Sur?",
+    "answers": ["Busan", "Incheon", "Seúl", "Daegu"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "question": "¿Cuál es la capital de Portugal?",
+    "answers": ["Oporto", "Lisboa", "Faro", "Braga"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "¿Cuál es la capital de Grecia?",
+    "answers": ["Atenas", "Salónica", "Patras", "Heraclión"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cuál es la capital de Noruega?",
+    "answers": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cuál es la capital de Suecia?",
+    "answers": ["Gotemburgo", "Uppsala", "Estocolmo", "Malmö"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 26,
+    "question": "¿Cuál es la capital de Dinamarca?",
+    "answers": ["Aarhus", "Odense", "Copenhague", "Esbjerg"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "question": "¿Cuál es la capital de Finlandia?",
+    "answers": ["Turku", "Helsinki", "Tampere", "Oulu"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "question": "¿Cuál es la capital de Polonia?",
+    "answers": ["Cracovia", "Varsovia", "Gdansk", "Poznan"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 29,
+    "question": "¿Cuál es la capital de Bélgica?",
+    "answers": ["Amberes", "Gante", "Bruselas", "Brujas"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 30,
+    "question": "¿Cuál es la capital de Suiza?",
+    "answers": ["Zúrich", "Ginebra", "Berna", "Basilea"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 31,
+    "question": "¿Cuál es la capital de Austria?",
+    "answers": ["Viena", "Salzburgo", "Innsbruck", "Graz"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es la capital de Hungría?",
+    "answers": ["Debrecen", "Pécs", "Budapest", "Szeged"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 33,
+    "question": "¿Cuál es la capital de Rumanía?",
+    "answers": ["Cluj-Napoca", "Timisoara", "Bucarest", "Constanza"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 34,
+    "question": "¿Cuál es la capital de Ucrania?",
+    "answers": ["Járkov", "Odesa", "Kiev", "Dnipro"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 35,
+    "question": "¿Cuál es la capital de República Checa?",
+    "answers": ["Brno", "Praga", "Ostrava", "Pilsen"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es la capital de Eslovaquia?",
+    "answers": ["Košice", "Prešov", "Nitra", "Bratislava"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es la capital de Croacia?",
+    "answers": ["Split", "Dubrovnik", "Zagreb", "Rijeka"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál es la capital de Serbia?",
+    "answers": ["Novi Sad", "Belgrado", "Niš", "Kragujevac"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál es la capital de Eslovenia?",
+    "answers": ["Maribor", "Liubliana", "Kranj", "Celje"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 40,
+    "question": "¿Cuál es la capital de Bosnia y Herzegovina?",
+    "answers": ["Banja Luka", "Mostar", "Sarajevo", "Tuzla"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 41,
+    "question": "¿Cuál es la capital de Albania?",
+    "answers": ["Durrës", "Vlorë", "Tirana", "Shkodër"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 42,
+    "question": "¿Cuál es la capital de Bulgaria?",
+    "answers": ["Varna", "Sofía", "Plovdiv", "Burgas"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "¿Cuál es la capital de Lituania?",
+    "answers": ["Kaunas", "Klaipėda", "Vilna", "Šiauliai"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 44,
+    "question": "¿Cuál es la capital de Letonia?",
+    "answers": ["Jūrmala", "Daugavpils", "Riga", "Liepāja"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 45,
+    "question": "¿Cuál es la capital de Estonia?",
+    "answers": ["Tartu", "Tallin", "Narva", "Pärnu"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es la capital de Islandia?",
+    "answers": ["Akureyri", "Hafnarfjörður", "Reikiavik", "Kópavogur"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 47,
+    "question": "¿Cuál es la capital de Irlanda?",
+    "answers": ["Cork", "Galway", "Dublín", "Limerick"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál es la capital de Marruecos?",
+    "answers": ["Casablanca", "Tánger", "Rabat", "Marrakech"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "¿Cuál es la capital de Ghana?",
+    "answers": ["Kumasi", "Accra", "Tamale", "Sekondi-Takoradi"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es la capital de Senegal?",
+    "answers": ["Thiès", "Ziguinchor", "Dakar", "Kaolack"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 51,
+    "question": "¿Cuál es la capital de Filipinas?",
+    "answers": ["Cebú", "Manila", "Dávao", "Taguig"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál es la capital de Tailandia?",
+    "answers": ["Chiang Mai", "Phuket", "Bangkok", "Pattaya"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 53,
+    "question": "¿Cuál es la capital de Indonesia?",
+    "answers": ["Bali", "Yakarta", "Surabaya", "Medan"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 54,
+    "question": "¿Cuál es la capital de Nueva Zelanda?",
+    "answers": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "question": "¿Cuál es la capital de Malasia?",
+    "answers": ["Kuala Lumpur", "Johor Bahru", "Ipoh", "George Town"],
+    "correctAnswer": 0
+  },
+
+
+  {
+    "id": 56,
+    "question": "¿Cuál es la capital de Turquía?",
+    "answers": ["Estambul", "Ankara", "Izmir", "Bursa"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 57,
+    "question": "¿Cuál es la capital de Irak?",
+    "answers": ["Mosul", "Basora", "Bagdad", "Erbil"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 58,
+    "question": "¿Cuál es la capital de Irán?",
+    "answers": ["Isfahán", "Teherán", "Mashhad", "Shiraz"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 59,
+    "question": "¿Cuál es la capital de Siria?",
+    "answers": ["Homs", "Damasco", "Alepo", "Latakia"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 60,
+    "question": "¿Cuál es la capital de Arabia Saudita?",
+    "answers": ["Jeddah", "Riad", "La Meca", "Medina"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 61,
+    "question": "¿Cuál es la capital de Emiratos Árabes Unidos?",
+    "answers": ["Dubái", "Abu Dabi", "Sharjah", "Ajmán"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 62,
+    "question": "¿Cuál es la capital de Israel?",
+    "answers": ["Tel Aviv", "Haifa", "Eilat", "Jerusalén"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 63,
+    "question": "¿Cuál es la capital de Líbano?",
+    "answers": ["Trípoli", "Sidón", "Beirut", "Baalbek"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 64,
+    "question": "¿Cuál es la capital de Jordania?",
+    "answers": ["Zarqa", "Ammán", "Aqaba", "Irbid"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "question": "¿Cuál es la capital de Omán?",
+    "answers": ["Salalah", "Mascate", "Sohar", "Sur"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 66,
+    "question": "¿Cuál es la capital de Kuwait?",
+    "answers": ["Al Jahra", "Kuwait City", "Al Farwaniyah", "Hawalli"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 67,
+    "question": "¿Cuál es la capital de Catar?",
+    "answers": ["Al Rayyan", "Mesaieed", "Doha", "Al Khor"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 68,
+    "question": "¿Cuál es la capital de Baréin?",
+    "answers": ["Muharraq", "Riffa", "Manama", "Isa Town"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es la capital de Kazajistán?",
+    "answers": ["Almatý", "Shymkent", "Astana", "Karagandá"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 70,
+    "question": "¿Cuál es la capital de Uzbekistán?",
+    "answers": ["Samarkanda", "Tashkent", "Bujará", "Namangán"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 71,
+    "question": "¿Cuál es la capital de Tayikistán?",
+    "answers": ["Khujand", "Khorog", "Kulob", "Dusambé"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 72,
+    "question": "¿Cuál es la capital de Kirguistán?",
+    "answers": ["Osh", "Tokmok", "Jalal-Abad", "Biskek"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál es la capital de Turkmenistán?",
+    "answers": ["Mary", "Dashoguz", "Asjabad", "Turkmenabat"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 74,
+    "question": "¿Cuál es la capital de Afganistán?",
+    "answers": ["Herat", "Kandahar", "Kabul", "Mazar-e Sharif"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 75,
+    "question": "¿Cuál es la capital de Pakistán?",
+    "answers": ["Karachi", "Lahore", "Islamabad", "Rawalpindi"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 76,
+    "question": "¿Cuál es la capital de Bangladesh?",
+    "answers": ["Chittagong", "Rajshahi", "Daca", "Sylhet"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 77,
+    "question": "¿Cuál es la capital de Nepal?",
+    "answers": ["Pokhara", "Biratnagar", "Patan", "Katmandú"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 78,
+    "question": "¿Cuál es la capital de Sri Lanka?",
+    "answers": ["Kandy", "Galle", "Colombo", "Jaffna"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 79,
+    "question": "¿Cuál es la capital de Maldivas?",
+    "answers": ["Maafushi", "Gan", "Malé", "Dhidhdhoo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 80,
+    "question": "¿Cuál es la capital de Myanmar (Birmania)?",
+    "answers": ["Yangón", "Naypyidó", "Mandalay", "Bago"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 81,
+    "question": "¿Cuál es la capital de Camboya?",
+    "answers": ["Siem Reap", "Battambang", "Nom Pen", "Sihanoukville"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 82,
+    "question": "¿Cuál es la capital de Vietnam?",
+    "answers": ["Hanoi", "Ho Chi Minh", "Da Nang", "Hue"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 83,
+    "question": "¿Cuál es la capital de Laos?",
+    "answers": ["Luang Prabang", "Pakse", "Vientián", "Savannakhet"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 84,
+    "question": "¿Cuál es la capital de Mongolia?",
+    "answers": ["Erdenet", "Ulán Bator", "Darkhan", "Choibalsan"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 85,
+    "question": "¿Cuál es la capital de Corea del Norte?",
+    "answers": ["Kaesong", "Sinuiju", "Pionyang", "Hyesan"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 86,
+    "question": "¿Cuál es la capital de Malí?",
+    "answers": ["Tombuctú", "Bamako", "Segou", "Kayes"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 87,
+    "question": "¿Cuál es la capital de Níger?",
+    "answers": ["Zinder", "Niamey", "Maradi", "Agadez"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 88,
+    "question": "¿Cuál es la capital de Chad?",
+    "answers": ["Moundou", "Yamena", "Abéché", "Sarh"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 89,
+    "question": "¿Cuál es la capital de Zimbabue?",
+    "answers": ["Bulawayo", "Gweru", "Harare", "Mutare"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 90,
+    "question": "¿Cuál es la capital de Madagascar?",
+    "answers": ["Toamasina", "Antananarivo", "Fianarantsoa", "Mahajanga"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 91,
+    "question": "¿Cuál es la capital de Uruguay?",
+    "answers": ["Montevideo", "Punta del Este", "Salto", "Colonia"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 92,
+    "question": "¿Cuál es la capital de Paraguay?",
+    "answers": ["Encarnación", "Asunción", "Ciudad del Este", "Concepción"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 93,
+    "question": "¿Cuál es la capital de Bolivia?",
+    "answers": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 94,
+    "question": "¿Cuál es la capital de Ecuador?",
+    "answers": ["Guayaquil", "Quito", "Cuenca", "Manta"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 95,
+    "question": "¿Cuál es la capital de Guatemala?",
+    "answers": ["Quetzaltenango", "Ciudad de Guatemala", "Escuintla", "Antigua Guatemala"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 96,
+    "question": "¿Cuál es la capital de Honduras?",
+    "answers": ["San Pedro Sula", "Tegucigalpa", "La Ceiba", "Choluteca"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 97,
+    "question": "¿Cuál es la capital de El Salvador?",
+    "answers": ["Santa Ana", "San Miguel", "San Salvador", "La Libertad"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 98,
+    "question": "¿Cuál es la capital de Nicaragua?",
+    "answers": ["León", "Granada", "Managua", "Masaya"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 99,
+    "question": "¿Cuál es la capital de Haití?",
+    "answers": ["Cabo Haitiano", "Puerto Príncipe", "Jacmel", "Gonaïves"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 100,
+    "question": "¿Cuál es la capital de República Dominicana?",
+    "answers": ["Santiago de los Caballeros", "La Vega", "San Pedro de Macorís", "Santo Domingo"],
+    "correctAnswer": 3
   }
 ]

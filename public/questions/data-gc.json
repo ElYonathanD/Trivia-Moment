@@ -87,7 +87,7 @@
     "id": 15,
     "question": "¿Cuántos continentes hay en el mundo?",
     "answers": ["5", "6", "7", "8"],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": 16,
@@ -118,5 +118,656 @@
     "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
     "answers": ["1936", "1939", "1941", "1945"],
     "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es el animal que causa más muertes a humanos en el año?",
+    "answers" : ["Serpiente", "Hipopótamo", "Mosquito", "Escorpión"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :22,
+    "question": "¿Quien pinto El angél caido?",
+    "answers" : ["Alexandre Cabanel", "Vincent van Gogh", "Diego Velázquez", "Rembrandt"],
+    "correctAnswer":0
+  },
+  {
+    "id" :23,
+    "question": "¿Qué selección ganó el mundial de fútbol del año 2018?",
+    "answers": ["España", "Alemania", "Argentina", "Francia"],
+    "correctAnswer": 3
+  },
+  {
+    "id" :24,
+    "question": "¿A qué elemento de la tabla periódica le pertenece el símbolo 'Hg'?",
+    "answers": ["Hidrógeno", "Oro", "Mercurio", "Germanio"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :25,
+    "question": "¿Quién es considerada como 'La Reina del Pop'?",
+    "answers": ["Lady Gaga", "Madonna", "Beyoncé", "Rihanna"],
+    "correctAnswer": 1
+  },
+  {
+    "id" :26,
+    "question": "¿Quién interpreta a Harry Potter en la saga de películas 'Harry Potter'?",
+    "answers": ["Tom Felton", "Alan Rickman", "Daniel Radcliffe", "Rupert Grint"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :27,
+    "question": "¿Quién escribió la saga de libros 'Las crónicas de Narnia'?",
+    "answers": ["J. R. R. Tolkien", "J.K.Rowling", "R. L. Stine", "C. S. Lewis"],
+    "correctAnswer": 3
+  },
+  {
+    "id" :28,
+    "question": "¿Quién es la persona más rica del mundo?",
+    "answers": ["Jeffrey Bezos", "Bernard Arnault", "Elon Musk", "Mark Zuckerberg"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :29,
+    "question": "¿Cuál es la película mas taquillera de la historia?",
+    "answers": ["Avatar", "Spider-man: No way home", "El rey león", "Titanic"],
+    "correctAnswer": 0
+  },
+  {
+    "id" :30,
+    "question": "¿Cuál de estas bandas NO es británica?",
+    "answers": ["The Smiths", "Pink Floyd", "Aerosmith", "Queen"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :31,
+    "question": "¿En qué año murió la Reina Isabel II del Reino Unido?",
+    "answers": ["2022", "2017", "2021", "2019"],
+    "correctAnswer": 0
+  },
+  {
+    "id" :32,
+    "question": "¿Quién fue Tupac Amaru Shakur?",
+    "answers": ["Activista", "Artista", "Rapero", "Politico"],
+    "correctAnswer": 2
+  },
+  {
+    "id" :33,
+    "question": "Las uñas están hechas de esmalte",
+    "answers": ["Verdadero", "Falso"],
+    "correctAnswer": 1
+  },
+  {
+    "id" :34,
+    "question": "¿Cuál es el órgano más grande del cuerpo?",
+    "answers": ["Estómago", "Hígado", "Intestino", "Piel"],
+    "correctAnswer": 3
+  },
+  {
+    "id" :35,
+    "question": "¿En que continente esta Oman?",
+    "answers": ["Europa", "Asia", "África", "América"],
+    "correctAnswer": 1
+  },
+  {
+    "id" :36,
+    "question": "¿A que categoría pertenece el murciélago por su alimentación",
+    "answers": ["Frugívoro", "Granívoro", "Xilófago", "Rizófago"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es el animal nacional de Australia?",
+    "answers": [
+      "Canguro",
+      "Koala",
+      "Emú",
+      "Dingo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+    "answers": [
+      "1789",
+      "1804",
+      "1776",
+      "1812"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál es el desierto más grande del mundo?",
+    "answers": [
+      "Desierto del Sahara",
+      "Desierto de Arabia",
+      "La Antártida",
+      "Desierto de Kalahari"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 40,
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "answers": [
+      "Océano Atlántico",
+      "Océano Pacífico",
+      "Océano Índico",
+      "Océano Ártico"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "¿Qué planeta se conoce como el 'Planeta Rojo'?",
+    "answers": [
+      "Marte",
+      "Júpiter",
+      "Saturno",
+      "Venus"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Cuántos colores tiene el arcoíris?",
+    "answers": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "¿En qué país se encuentra la Gran Muralla China?",
+    "answers": [
+      "China",
+      "Japón",
+      "India",
+      "Corea del Sur"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "answers": [
+      "Mónaco",
+      "El Vaticano",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 45,
+    "question": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+    "answers": [
+      "208",
+      "210",
+      "204",
+      "206"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "question": "¿Quién pintó 'La Noche Estrellada'?",
+    "answers": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 47,
+    "question": "¿Cuántos anillos tiene el logotipo de los Juegos Olímpicos?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál es el continente con más países?",
+    "answers": [
+      "Asia",
+      "África",
+      "Europa",
+      "América"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 48,
+    "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "answers": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 49,
+    "question": "¿En qué año terminó la Primera Guerra Mundial?",
+    "answers": [
+      "1918",
+      "1914",
+      "1920",
+      "1919"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es el deporte donde se usa una pelota llamada 'shuttlecock'?",
+    "answers": [
+      "Tenis",
+      "Squash",
+      "Bádminton",
+      "Voleibol"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 51,
+    "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "answers": ["Aluminio", "Hierro", "Cobre", "Zinc"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "answers": ["Húmero", "Fémur", "Tibia", "Peroné"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "question": "¿En qué año se estrenó la primera película de Star Wars?",
+    "answers": ["1980", "1983", "1974", "1977"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 54,
+    "question": "¿Cuál es el mamífero más pequeño del mundo?",
+    "answers": ["Murciélago abejorro", "Ratón de campo", "Musaraña", "Rata canguro"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 55,
+    "question": "¿Cuál es el país que tiene forma de bota?",
+    "answers": ["Italia", "Chile", "Vietnam", "Corea del Sur"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 56,
+    "question": "¿Cuál es el autor de la novela '1984'?",
+    "answers": ["Aldous Huxley", "Ray Bradbury", "George Orwell", "J.D. Salinger"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 57,
+    "question": "¿Cuántos corazones tiene un pulpo?",
+    "answers": ["3", "2", "4", "1"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 58,
+    "question": "¿Qué órgano produce la insulina en el cuerpo humano?",
+    "answers": ["Hígado", "Páncreas", "Riñón", "Bazo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 59,
+    "question": "¿Cuántos jugadores forman un equipo de baloncesto en la cancha?",
+    "answers": ["6", "7", "5", "8"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 60,
+    "question": "¿Cómo se llama el proceso por el cual las plantas convierten la luz solar en alimento?",
+    "answers": ["Fotosíntesis", "Respiración", "Transpiración", "Evaporación"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 61,
+    "question": "¿Qué planeta es conocido como el 'Gigante Gaseoso'?",
+    "answers": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 62,
+    "question": "¿Cuál es la fórmula química del agua?",
+    "answers": ["O2", "H2O", "CO2", "CH4"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 63,
+    "question": "¿Qué país es conocido por sus relojes de precisión y chocolates?",
+    "answers": ["Austria", "Alemania", "Bélgica", "Suiza"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 64,
+    "question": "¿Cuál es el animal que puede regenerar sus extremidades?",
+    "answers": ["Camaleón", "Estrella de mar", "Salamandra", "Serpiente"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "question": "¿Cómo se llama el científico que desarrolló la teoría de la relatividad?",
+    "answers": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Galileo Galilei"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 66,
+    "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+    "answers": ["Oxígeno", "Dióxido de carbono", "Hidrógeno", "Nitrógeno"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 67,
+    "question": "¿Cuál es el único mamífero capaz de volar?",
+    "answers": ["Águila", "Murciélago", "Colibrí", "Pájaro carpintero"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 68,
+    "question": "¿Cuál es la lengua más antigua aún en uso en el mundo?",
+    "answers": ["Sánscrito", "Latín", "Griego", "Hebreo"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 69,
+    "question": "¿Cuál es la obra más famosa de William Shakespeare?",
+    "answers": ["Hamlet", "Macbeth", "Romeo y Julieta", "Otelo"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 70,
+    "question": "¿En que año se realizo el primer mundial de futbol?",
+    "answers": ["1950", "1934", "1930", "1960"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 71,
+    "question": "¿Cuál es el nombre del proceso por el cual el agua pasa de estado líquido a gaseoso?",
+    "answers": ["Evaporación", "Condensación", "Sublimación", "Fusión"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "question": "¿Quién es conocido como el 'Padre de la Computación'?",
+    "answers": ["Dennis Ritchie", "Charles Babbage", "John von Neumann", "Ada Lovelace"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál es el animal con la mordida más fuerte del mundo?",
+    "answers": ["Cocodrilo", "León", "Tiburón blanco", "Hiena"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 74,
+    "question": "¿Cómo se llama la capa más externa de la Tierra?",
+    "answers": ["Manto","Corteza", "Núcleo externo", "Núcleo interno"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 75,
+    "question": "¿Qué vitamina se obtiene principalmente de la exposición al sol?",
+    "answers": ["Vitamina C", "Vitamina E", "Vitamina A", "Vitamina D"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 76,
+    "question": "¿Cuál es el nombre de la ballena más grande del mundo?",
+    "answers": ["Ballena azul", "Ballena jorobada", "Ballena franca", "Ballena gris"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 77,
+    "question": "¿Qué planeta se encuentra más cerca del Sol?",
+    "answers": ["Venus", "Mercurio", "Tierra", "Marte"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 78,
+    "question": "¿Cuál es el nombre científico del ser humano?",
+    "answers": ["Homo erectus", "Homo habilis", "Homo sapiens sapiens", "Homo neanderthalensis"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 79,
+    "question": "¿En qué año se fundó la ONU?",
+    "answers": ["1939", "1945", "1950", "1941"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 80,
+    "question": "¿Quién es considerado el mejor golfista de todos los tiempos?",
+    "answers": ["Tiger Woods", "Jack Nicklaus", "Bobby Jones", "Arnold Palmer"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 81,
+    "question": "¿Cuál es el océano más profundo del mundo?",
+    "answers": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 82,
+    "question": "¿Qué metal se encuentra en el centro de la Tierra?",
+    "answers": ["Níquel", "Hierro", "Plomo", "Cobre"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 83,
+    "question": "¿Cuál es la primera ley de Newton?",
+    "answers": ["Ley de acción y reacción", "Ley de la gravedad", "Ley de inercia", "Ley de la aceleración"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 84,
+    "question": "¿Cuántos músculos tiene el cuerpo humano?",
+    "answers": ["650", "206", "550", "489"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 85,
+    "question": "¿Cuál es la única ave que no puede volar?",
+    "answers": ["Kiwi", "Pingüino", "Avestruz", "Dodo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 86,
+    "question": "¿Cuál es el único número primo par?",
+    "answers": ["2", "3", "5", "7"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "question": "¿Qué parte del cuerpo produce la bilis?",
+    "answers": ["Hígado", "Páncreas", "Riñón", "Intestino grueso"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 88,
+    "question": "¿Cuántos elementos hay en la tabla periódica?",
+    "answers": ["120", "115", "118", "116"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 89,
+    "question": "¿Cuál es el animal más venenoso del mundo?",
+    "answers": ["Medusa de caja", "Serpiente taipán", "Pez piedra", "Rana dardo dorada"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 90,
+    "question": "¿Qué instrumento se usa para medir la presión atmosférica?",
+    "answers": ["Barómetro", "Higrómetro", "Termómetro", "Anemómetro"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 91,
+    "question": "¿Cuál es la primera película animada de Disney?",
+    "answers": ["Pinocho", "Blancanieves y los siete enanitos", "La Cenicienta", "Dumbo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 92,
+    "question": "¿Qué continente no tiene desiertos?",
+    "answers": ["Europa", "Asia", "África", "Oceanía"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 93,
+    "question": "¿Cuántos vértices tiene un cubo?",
+    "answers": ["12", "8", "6", "10"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 94,
+    "question": "¿Cuál es la capital de la moda?",
+    "answers": ["New York", "Milán", "París", "Tokio"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 95,
+    "question": "¿Qué cantidad de huesos tiene un bebé al nacer?",
+    "answers": ["300", "206", "280", "270"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 96,
+    "question": "¿Cuál es el planeta más frío del sistema solar?",
+    "answers": ["Saturno", "Neptuno", "Urano", "Júpiter"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 97,
+    "question": "¿Cuál es el nombre de la primera mujer en ganar un premio Nobel?",
+    "answers": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Jane Goodall"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 98,
+    "question": "¿Qué gas se usa para inflar globos aerostáticos?",
+    "answers": ["Oxígeno", "Hidrógeno", "Helio", "Dióxido de carbono"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 99,
+    "question": "¿Cuál es la obra más famosa de Miguel de Cervantes?",
+    "answers": ["Don Quijote de la Mancha", "La Celestina", "El Cid", "La Casa de Bernarda Alba"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 100,
+    "question": "¿Cuál es la galaxia mas grande del sistema local?",
+    "answers": ["Andrómeda", "Vía Láctea", "Galaxia del Triángulo", "Galaxia Sombrero"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 101,
+    "question": "¿Cuál es la unidad de medida de la intensidad de la corriente eléctrica?",
+    "answers": ["Voltio", "Ohmio", "Watt", "Amperio"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 102,
+    "question": "¿Cuál es la principal fuente de energía de la Tierra?",
+    "answers": ["La Luna","El Sol", "Las estrellas", "El fuego"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 103,
+    "question": "¿Cuál es la forma geométrica de las celdas de un panal de abejas?",
+    "answers": ["Hexágono", "Pentágono", "Círculo", "Cuadrado"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 104,
+    "question": "¿Cómo se llama la energía que se obtiene del sol?",
+    "answers": ["Energía térmica", "Energía eólica", "Energía cinética", "Energía solar"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 105,
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "answers": ["299,792 km/s", "150,000 km/s", "250,000 km/s", "350,000 km/s"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 106,
+    "question": "¿Cuantos años son un lustro?",
+    "answers": ["10", "50", "5", "500"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 107,
+    "question": "¿En que año fue el atentado de las torres gemelas?",
+    "answers": ["2000", "2002", "2001", "1998"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 108,
+    "question": "¿En que año se uso la primera bomba atómica?",
+    "answers": ["1944", "1945", "1940", "1951"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 109,
+    "question": "¿Qué parte del cuerpo humano nunca deja de crecer?",
+    "answers": ["Nariz", "Pies", "Pelo", "Uñas"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 110,
+    "question": "¿Cuál ciudad es conocida como la capital del mundo?",
+    "answers": ["París", "Milán", "Nueva York", "Tokio"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 111,
+    "question": "¿Cual es el futbolista con mas balones de oro?",
+    "answers": ["Maradona", "Cristiano Ronaldo", "Lionel Messi", "Pele"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 112,
+    "question": "¿Que país es el mayor exportador de cafe?",
+    "answers": ["Vietnam", "Brasil", "Colombia", "Etiopía"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 113,
+    "question": "¿Qué instrumento se utiliza para medir la temperatura?",
+    "answers": ["Termómetro", "Barómetro", "Higrómetro", "Anemómetro"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 114,
+    "question": "¿Qué país inventó la pólvora?",
+    "answers": ["Japón", "China", "India", "Egipto"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 115,
+    "question": "¿Cuál es el metal que se usa en los termómetros tradicionales?",
+    "answers": ["Plomo", "Aluminio", "Estaño", "Mercurio"],
+    "correctAnswer": 3
   }
 ]
