@@ -1,6 +1,7 @@
-import { Button, Container, Typography } from '@mui/material'
+import { Button, Container, Stack, Typography } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
 import Grid from '@mui/material/Grid2'
+import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt'
 import '../styles/start.css'
 const Start = () => {
   const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
@@ -24,9 +25,13 @@ const Start = () => {
   ]
   return (
     <Container maxWidth='lg'>
-      <Typography variant='subtitle1' component='p'>
-        Elije uno de nuestros temas y contesta las preguntas
-      </Typography>
+      <Stack justifyContent='center' alignItems='center' gap={2}>
+        <Typography variant='subtitle1' component='p'>
+          ¿Quieres poner a prueba tu conocimiento? ¡Elije y completa una de
+          nuestras secciones para descubrir que tan inteligente eres!
+        </Typography>
+        <SentimentSatisfiedAltIcon />
+      </Stack>
       <Grid
         container
         rowSpacing={1}

@@ -348,17 +348,6 @@
     "correctAnswer": 1
   },
   {
-    "id": 48,
-    "question": "¿Quién fue el primer presidente de los Estados Unidos?",
-    "answers": [
-      "Thomas Jefferson",
-      "George Washington",
-      "Abraham Lincoln",
-      "John Adams"
-    ],
-    "correctAnswer": 1
-  },
-  {
     "id": 49,
     "question": "¿En qué año terminó la Primera Guerra Mundial?",
     "answers": [
@@ -714,7 +703,7 @@
     "id": 106,
     "question": "¿Cuantos años son un lustro?",
     "answers": ["10", "50", "5", "500"],
-    "correctAnswer": 3
+    "correctAnswer": 2
   },
   {
     "id": 107,
