@@ -40,7 +40,7 @@ const Start = () => {
             <Button
               className={`button-background ${topic.name}-button`}
               fullWidth
-              onClick={() => fetchQuestions(15, topic.name)}
+              onClick={() => fetchQuestions(15, topic)}
               variant='contained'
             >
               {topic.label}

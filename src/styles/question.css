@@ -1,7 +1,7 @@
 .card-question {
   padding: 24px;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 .card-question h5 {
   font-size: 1rem;
@@ -9,7 +9,7 @@
 
 .options-list {
   background-color: #313131;
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 @media (min-width: 768px) {
   .card-question h5 {
