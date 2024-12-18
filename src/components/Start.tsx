@@ -34,7 +34,7 @@ const Start = () => {
       </Stack>
       <Grid
         container
-        rowSpacing={1}
+        rowSpacing={3}
         columns={{ xs: 4, sm: 8, md: 12 }}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         justifyContent='center'
