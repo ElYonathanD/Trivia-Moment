@@ -2,19 +2,18 @@ import '../styles/game.css'
 import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
 import { Button, Container, Stack } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
-import { useState } from 'react'
 import Question from './Question'
 import Result from './Result'
 
 const Game = () => {
-  const [isFinish, setIsFinish] = useState(false)
-
   const questions = useQuestionStore((state) => state.questions)
   const goHome = useQuestionStore((state) => state.goHome)
   const currentQuestion = useQuestionStore((state) => state.currentQuestion)
   const goNextQuestion = useQuestionStore((state) => state.goNextQuestion)
   const goQuestion = useQuestionStore((state) => state.goQuestion)
   const goPrevQuestion = useQuestionStore((state) => state.goPrevQuestion)
+  const finish = useQuestionStore((state) => state.finish)
+  const isFinish = useQuestionStore((state) => state.isFinish)
   const infoQuestion = questions[currentQuestion]
   const missingAnswer = questions.some(
     (question) => question.userSelectedAnswer == undefined
@@ -54,7 +53,7 @@ const Game = () => {
             <Button
               variant='outlined'
               className='finish-button'
-              onClick={() => setIsFinish(!isFinish)}
+              onClick={() => finish()}
               disabled={missingAnswer}
             >
               Finalizar
