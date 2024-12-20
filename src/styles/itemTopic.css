@@ -32,17 +32,17 @@
 }
 
 .js-button::before {
-  background-image: url('/images/js.jpg');
+  background-image: url('/images/js.webp');
 }
 
 .gc-button::before {
-  background-image: url('/images/gc.jpg');
+  background-image: url('/images/gc.webp');
 }
 
 .math-button::before {
-  background-image: url('/images/math.jpg');
+  background-image: url('/images/math.webp');
 }
 
 .cap-button::before {
-  background-image: url('/images/cap.jpg');
+  background-image: url('/images/cap.webp');
 }
