@@ -11,7 +11,7 @@ function App() {
     <main>
       <Stack
         direction='column'
-        gap={2}
+        gap={1}
         alignItems='center'
         justifyContent='center'
       >
