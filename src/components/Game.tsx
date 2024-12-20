@@ -9,7 +9,7 @@ const Game = () => {
   const { questions, goHome, currentQuestion, isFinish } = useQuestionStore(
     (state) => state
   )
-  const infoQuestion = questions[currentQuestion]
+  const questionInfo = questions[currentQuestion]
 
   return (
     <Container maxWidth='lg' sx={{ padding: 0 }}>
@@ -19,7 +19,7 @@ const Game = () => {
 
       {!isFinish ? (
         <Pagination>
-          <Question info={infoQuestion} />
+          <Question info={questionInfo} />
         </Pagination>
       ) : (
         <Result />

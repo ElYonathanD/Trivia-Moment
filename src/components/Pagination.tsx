@@ -16,7 +16,7 @@ const Pagination = ({ children }: Props) => {
     goQuestion,
     finish
   } = useQuestionStore((state) => state)
-  const missingAnswer = questions.some(
+  const missingAnswers = questions.some(
     (question) => question.userSelectedAnswer == undefined
   )
 
@@ -55,7 +55,7 @@ const Pagination = ({ children }: Props) => {
           variant='outlined'
           className='finish-button'
           onClick={() => finish()}
-          disabled={missingAnswer}
+          disabled={missingAnswers}
         >
           Finalizar
         </Button>
