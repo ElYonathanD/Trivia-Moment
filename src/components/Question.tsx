@@ -28,7 +28,7 @@ const Question = ({
   const selectAnswer = useQuestionStore((state) => state.selectAnswer)
 
   return (
-    <Card variant='elevation' className='card-question '>
+    <Card variant='elevation' className='card-question'>
       <Typography variant='h5'>{info.question}</Typography>
       {info.code && (
         <SyntaxHighlighter language='javascript' style={nord}>

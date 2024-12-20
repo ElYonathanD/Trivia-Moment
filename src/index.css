@@ -16,6 +16,7 @@ body {
   background-repeat: repeat;
   background-blend-mode: overlay;
   background-position: center;
+  margin-bottom: 20px !important;
 }
 *,
 *::after,

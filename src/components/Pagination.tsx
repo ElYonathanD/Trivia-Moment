@@ -1,3 +1,4 @@
+import '../styles/pagination.css'
 import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material'
 import { Button, Stack } from '@mui/material'
 import { useQuestionStore } from '../store/questions'
@@ -23,7 +24,7 @@ const Pagination = ({ children }: Props) => {
   return (
     <Stack
       direction='column'
-      gap={4}
+      gap={3}
       alignItems='center'
       justifyContent='center'
     >

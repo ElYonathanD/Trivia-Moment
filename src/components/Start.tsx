@@ -1,7 +1,6 @@
 import { Container, Stack, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid2'
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt'
-import '../styles/start.css'
 import ItemTopic from './ItemTopic'
 const Start = () => {
   const topics = [

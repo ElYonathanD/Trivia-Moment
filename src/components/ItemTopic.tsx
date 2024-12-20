@@ -1,3 +1,4 @@
+import '../styles/itemTopic.css'
 import { Button } from '@mui/material'
 import Grid from '@mui/material/Grid2'
 import { useQuestionStore } from '../store/questions'
@@ -17,7 +18,7 @@ const ItemTopic = ({ topic }: Props) => {
         className={`button-background ${topic.name}-button`}
         fullWidth
         onClick={() => fetchQuestions(15, topic)}
-        variant='contained'
+        variant='text'
       >
         {topic.label}
       </Button>

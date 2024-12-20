@@ -7,9 +7,10 @@
 }
 h1 {
   font-size: 3rem;
-  font-family: cursive;
+  font-weight: bold;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 h2 {
-  font-family: cursive;
+  font-weight: bold;
 }

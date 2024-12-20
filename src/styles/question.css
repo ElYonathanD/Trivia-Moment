@@ -1,7 +1,7 @@
 .card-question {
   padding: 24px;
+  width: 100%;
   text-align: left;
-  margin-top: 20px !important;
 }
 .card-question h5 {
   font-size: 1rem;
