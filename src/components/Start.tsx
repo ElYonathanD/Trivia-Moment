@@ -1,10 +1,9 @@
-import { Button, Container, Stack, Typography } from '@mui/material'
-import { useQuestionStore } from '../store/questions'
+import { Container, Stack, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid2'
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt'
 import '../styles/start.css'
+import ItemTopic from './ItemTopic'
 const Start = () => {
-  const fetchQuestions = useQuestionStore((state) => state.fetchQuestions)
   const topics = [
     {
       name: 'js',
@@ -41,16 +40,7 @@ const Start = () => {
         sx={{ marginTop: '20px' }}
       >
         {topics.map((topic) => (
-          <Grid size={6} key={topic.name}>
-            <Button
-              className={`button-background ${topic.name}-button`}
-              fullWidth
-              onClick={() => fetchQuestions(15, topic)}
-              variant='contained'
-            >
-              {topic.label}
-            </Button>
-          </Grid>
+          <ItemTopic key={topic.name} topic={topic} />
         ))}
       </Grid>
     </Container>

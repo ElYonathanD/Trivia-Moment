@@ -211,7 +211,7 @@
   },
   {
     "id" :36,
-    "question": "¿A que categoría pertenece el murciélago por su alimentación",
+    "question": "¿A que categoría pertenece el murciélago por su alimentación?",
     "answers": ["Frugívoro", "Granívoro", "Xilófago", "Rizófago"],
     "correctAnswer": 0
   },
